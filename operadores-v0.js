@@ -19,14 +19,30 @@ function Subtrair() {
     alert(`O segundo valor digitado foi ${n2}.`)
 
     document.getElementById('resultado').style.display = 'flex';
-    document.getElementById('resultado').textContent = `O resultado é ${n1} - ${n2}.`;
+    document.getElementById('resultado').textContent = `O resultado é ${n1 - n2}.`;
 
 };
 
 function Multiplicar() {
+    let n1 = parseFloat(prompt('valor01'));
+    //template de str
+    alert(`O valor digitado foi ${n1}.`);
+    let n2 = parseFloat(prompt('valor02'));
+    alert(`O segundo valor digitado foi ${n2}.`)
+
+    document.getElementById('resultado').style.display = 'flex';
+    document.getElementById('resultado').textContent = `O resultado é ${n1 * n2}.`;
 
 };
 
 function Dividir() {
+    let n1 = parseFloat(prompt('valor01'));
+    //template de str
+    alert(`O valor digitado foi ${n1}.`);
+    let n2 = parseFloat(prompt('valor02'));
+    alert(`O segundo valor digitado foi ${n2}.`)
+
+    document.getElementById('resultado').style.display = 'flex';
+    document.getElementById('resultado').textContent = `O resultado é ${n1 / n2}.`;
 
 };
